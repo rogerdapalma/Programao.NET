@@ -33,6 +33,12 @@
             Console.WriteLine("i = " + i);
             i = i + 3;
             Console.WriteLine("i = " + i);
+
+            Console.Write("mantendo tudo em uma linha \n\n");
+            Console.WriteLine("quebrando linha");
+            Console.WriteLine();
+            Console.WriteLine("\n");
+
         }
     }
 }
