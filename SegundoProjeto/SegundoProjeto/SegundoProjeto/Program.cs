@@ -39,6 +39,19 @@
             Console.WriteLine();
             Console.WriteLine("\n");
 
+            Console.WriteLine("segundo projeto c#");
+            Console.WriteLine("iniciando, manipulando string");
+            string frase = "frase declarada com variavel string";
+            String frase2 = "frase declarada com variavel String";
+            // concatenando string
+            Console.WriteLine("concatenando strings");
+            Console.WriteLine("frase 1: "+frase);
+            Console.WriteLine("frase 2: "+frase2);
+            //interpolação de string
+            Console.WriteLine("interpolando string");
+            Console.WriteLine($"frase 1 = {frase}");
+            Console.WriteLine($"frase 2 = {frase2}");
+            Console.WriteLine($"numnero {n1}");
         }
     }
 }
