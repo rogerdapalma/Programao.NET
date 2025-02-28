@@ -52,6 +52,30 @@
             Console.WriteLine($"frase 1 = {frase}");
             Console.WriteLine($"frase 2 = {frase2}");
             Console.WriteLine($"numnero {n1}");
+
+            string  maiuscula = frase.ToUpper();
+            Console.WriteLine("frase 1 maiuscula " +maiuscula);
+            string minuscula = maiuscula.ToLower();
+            Console.WriteLine("frase 1 minuscula = " +minuscula);
+
+            string fraseNova = frase.Replace("frase " , " string");
+            Console.WriteLine("frase nova " +fraseNova);
+            //concatenar strings
+            string novaFrase;
+            novaFrase = "estou unindo uma frase na outra\n" + fraseNova;
+            Console.WriteLine(novaFrase);
+
+            int numero;
+            Console.WriteLine("Digite um valor: ");
+            numero = int.Parse(Console.ReadLine());
+            Console.WriteLine("foi digitado: " + numero);
+
+            double numero2;
+            Console.WriteLine("valor com virgula: ");
+            numero2 = double.Parse(Console.ReadLine());
+            Console.WriteLine("digitado: "+numero2);
+
+           
         }
     }
 }
