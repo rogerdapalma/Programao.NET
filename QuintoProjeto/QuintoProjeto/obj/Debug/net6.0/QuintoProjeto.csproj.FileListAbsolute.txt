@@ -1,0 +1,15 @@
+C:\Users\laboratorio\Desktop\Nova pasta\Programao.NET\QuintoProjeto\QuintoProjeto\obj\Debug\net6.0\QuintoProjeto.csproj.AssemblyReference.cache
+C:\Users\laboratorio\Desktop\Nova pasta\Programao.NET\QuintoProjeto\QuintoProjeto\obj\Debug\net6.0\QuintoProjeto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\laboratorio\Desktop\Nova pasta\Programao.NET\QuintoProjeto\QuintoProjeto\obj\Debug\net6.0\QuintoProjeto.AssemblyInfoInputs.cache
+C:\Users\laboratorio\Desktop\Nova pasta\Programao.NET\QuintoProjeto\QuintoProjeto\obj\Debug\net6.0\QuintoProjeto.AssemblyInfo.cs
+C:\Users\laboratorio\Desktop\Nova pasta\Programao.NET\QuintoProjeto\QuintoProjeto\obj\Debug\net6.0\QuintoProjeto.csproj.CoreCompileInputs.cache
+C:\Users\laboratorio\Desktop\Nova pasta\Programao.NET\QuintoProjeto\QuintoProjeto\bin\Debug\net6.0\QuintoProjeto.exe
+C:\Users\laboratorio\Desktop\Nova pasta\Programao.NET\QuintoProjeto\QuintoProjeto\bin\Debug\net6.0\QuintoProjeto.deps.json
+C:\Users\laboratorio\Desktop\Nova pasta\Programao.NET\QuintoProjeto\QuintoProjeto\bin\Debug\net6.0\QuintoProjeto.runtimeconfig.json
+C:\Users\laboratorio\Desktop\Nova pasta\Programao.NET\QuintoProjeto\QuintoProjeto\bin\Debug\net6.0\QuintoProjeto.dll
+C:\Users\laboratorio\Desktop\Nova pasta\Programao.NET\QuintoProjeto\QuintoProjeto\bin\Debug\net6.0\QuintoProjeto.pdb
+C:\Users\laboratorio\Desktop\Nova pasta\Programao.NET\QuintoProjeto\QuintoProjeto\obj\Debug\net6.0\QuintoProjeto.dll
+C:\Users\laboratorio\Desktop\Nova pasta\Programao.NET\QuintoProjeto\QuintoProjeto\obj\Debug\net6.0\refint\QuintoProjeto.dll
+C:\Users\laboratorio\Desktop\Nova pasta\Programao.NET\QuintoProjeto\QuintoProjeto\obj\Debug\net6.0\QuintoProjeto.pdb
+C:\Users\laboratorio\Desktop\Nova pasta\Programao.NET\QuintoProjeto\QuintoProjeto\obj\Debug\net6.0\QuintoProjeto.genruntimeconfig.cache
+C:\Users\laboratorio\Desktop\Nova pasta\Programao.NET\QuintoProjeto\QuintoProjeto\obj\Debug\net6.0\ref\QuintoProjeto.dll

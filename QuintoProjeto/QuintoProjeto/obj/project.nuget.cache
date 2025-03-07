@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "lH9hrIw3LG5r1GQRAh9P+8XlL/UPeCZaPnrigqA5gc400oD9p0ObAptDTN63MftfHxKy8EzH24T7BdUDmJ2TDA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\laboratorio\\Desktop\\Nova pasta\\Programao.NET\\QuintoProjeto\\QuintoProjeto\\QuintoProjeto.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\laboratorio\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.13\\microsoft.windowsdesktop.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\laboratorio\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.13\\microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\laboratorio\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.13\\microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\laboratorio\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.13\\microsoft.netcore.app.host.win-x64.6.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
