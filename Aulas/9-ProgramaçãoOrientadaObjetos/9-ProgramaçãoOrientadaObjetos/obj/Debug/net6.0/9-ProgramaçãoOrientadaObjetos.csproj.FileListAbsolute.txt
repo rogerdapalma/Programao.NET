@@ -1,0 +1,15 @@
+C:\Users\laboratorio\Downloads\Nova pasta\Programao.NET\Aulas\9-ProgramaçãoOrientadaObjetos\9-ProgramaçãoOrientadaObjetos\bin\Debug\net6.0\9-ProgramaçãoOrientadaObjetos.exe
+C:\Users\laboratorio\Downloads\Nova pasta\Programao.NET\Aulas\9-ProgramaçãoOrientadaObjetos\9-ProgramaçãoOrientadaObjetos\bin\Debug\net6.0\9-ProgramaçãoOrientadaObjetos.deps.json
+C:\Users\laboratorio\Downloads\Nova pasta\Programao.NET\Aulas\9-ProgramaçãoOrientadaObjetos\9-ProgramaçãoOrientadaObjetos\bin\Debug\net6.0\9-ProgramaçãoOrientadaObjetos.runtimeconfig.json
+C:\Users\laboratorio\Downloads\Nova pasta\Programao.NET\Aulas\9-ProgramaçãoOrientadaObjetos\9-ProgramaçãoOrientadaObjetos\bin\Debug\net6.0\9-ProgramaçãoOrientadaObjetos.dll
+C:\Users\laboratorio\Downloads\Nova pasta\Programao.NET\Aulas\9-ProgramaçãoOrientadaObjetos\9-ProgramaçãoOrientadaObjetos\bin\Debug\net6.0\9-ProgramaçãoOrientadaObjetos.pdb
+C:\Users\laboratorio\Downloads\Nova pasta\Programao.NET\Aulas\9-ProgramaçãoOrientadaObjetos\9-ProgramaçãoOrientadaObjetos\obj\Debug\net6.0\9-ProgramaçãoOrientadaObjetos.csproj.AssemblyReference.cache
+C:\Users\laboratorio\Downloads\Nova pasta\Programao.NET\Aulas\9-ProgramaçãoOrientadaObjetos\9-ProgramaçãoOrientadaObjetos\obj\Debug\net6.0\9-ProgramaçãoOrientadaObjetos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\laboratorio\Downloads\Nova pasta\Programao.NET\Aulas\9-ProgramaçãoOrientadaObjetos\9-ProgramaçãoOrientadaObjetos\obj\Debug\net6.0\9-ProgramaçãoOrientadaObjetos.AssemblyInfoInputs.cache
+C:\Users\laboratorio\Downloads\Nova pasta\Programao.NET\Aulas\9-ProgramaçãoOrientadaObjetos\9-ProgramaçãoOrientadaObjetos\obj\Debug\net6.0\9-ProgramaçãoOrientadaObjetos.AssemblyInfo.cs
+C:\Users\laboratorio\Downloads\Nova pasta\Programao.NET\Aulas\9-ProgramaçãoOrientadaObjetos\9-ProgramaçãoOrientadaObjetos\obj\Debug\net6.0\9-ProgramaçãoOrientadaObjetos.csproj.CoreCompileInputs.cache
+C:\Users\laboratorio\Downloads\Nova pasta\Programao.NET\Aulas\9-ProgramaçãoOrientadaObjetos\9-ProgramaçãoOrientadaObjetos\obj\Debug\net6.0\9-ProgramaçãoOrientadaObjetos.dll
+C:\Users\laboratorio\Downloads\Nova pasta\Programao.NET\Aulas\9-ProgramaçãoOrientadaObjetos\9-ProgramaçãoOrientadaObjetos\obj\Debug\net6.0\refint\9-ProgramaçãoOrientadaObjetos.dll
+C:\Users\laboratorio\Downloads\Nova pasta\Programao.NET\Aulas\9-ProgramaçãoOrientadaObjetos\9-ProgramaçãoOrientadaObjetos\obj\Debug\net6.0\9-ProgramaçãoOrientadaObjetos.pdb
+C:\Users\laboratorio\Downloads\Nova pasta\Programao.NET\Aulas\9-ProgramaçãoOrientadaObjetos\9-ProgramaçãoOrientadaObjetos\obj\Debug\net6.0\9-ProgramaçãoOrientadaObjetos.genruntimeconfig.cache
+C:\Users\laboratorio\Downloads\Nova pasta\Programao.NET\Aulas\9-ProgramaçãoOrientadaObjetos\9-ProgramaçãoOrientadaObjetos\obj\Debug\net6.0\ref\9-ProgramaçãoOrientadaObjetos.dll

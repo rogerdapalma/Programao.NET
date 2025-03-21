@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "x6NDiEE0TSpOK7V6N81M+xrIbSy7t6LmQQzPxRE7VgoJjmgZgVyb0V4QSzHe4DzXxKnDkoB5iIXskx/cPRyKHw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\laboratorio\\Downloads\\Nova pasta\\Programao.NET\\Aulas\\10-AtividadePOO\\10-AtividadePOO\\10-AtividadePOO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\laboratorio\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.13\\microsoft.windowsdesktop.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\laboratorio\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.13\\microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\laboratorio\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.13\\microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\laboratorio\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.13\\microsoft.netcore.app.host.win-x64.6.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

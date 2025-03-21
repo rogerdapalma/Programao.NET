@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "lMcEDnCXFXzO6gWsBbSw32Fqrz9+ndLk90H6u3+c8QByJMAN0gewey9PFKc5fAiOtENrF9oe6FA0YR46GotSXQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\laboratorio\\Downloads\\Nova pasta\\Programao.NET\\Aulas\\9-ProgramaçãoOrientadaObjetos\\9-ProgramaçãoOrientadaObjetos\\9-ProgramaçãoOrientadaObjetos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\laboratorio\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.13\\microsoft.windowsdesktop.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\laboratorio\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.13\\microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\laboratorio\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.13\\microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\laboratorio\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.13\\microsoft.netcore.app.host.win-x64.6.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

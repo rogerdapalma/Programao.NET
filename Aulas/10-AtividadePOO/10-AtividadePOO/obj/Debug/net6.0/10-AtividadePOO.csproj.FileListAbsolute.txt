@@ -1,0 +1,15 @@
+C:\Users\laboratorio\Downloads\Nova pasta\Programao.NET\Aulas\10-AtividadePOO\10-AtividadePOO\bin\Debug\net6.0\10-AtividadePOO.exe
+C:\Users\laboratorio\Downloads\Nova pasta\Programao.NET\Aulas\10-AtividadePOO\10-AtividadePOO\bin\Debug\net6.0\10-AtividadePOO.deps.json
+C:\Users\laboratorio\Downloads\Nova pasta\Programao.NET\Aulas\10-AtividadePOO\10-AtividadePOO\bin\Debug\net6.0\10-AtividadePOO.runtimeconfig.json
+C:\Users\laboratorio\Downloads\Nova pasta\Programao.NET\Aulas\10-AtividadePOO\10-AtividadePOO\bin\Debug\net6.0\10-AtividadePOO.dll
+C:\Users\laboratorio\Downloads\Nova pasta\Programao.NET\Aulas\10-AtividadePOO\10-AtividadePOO\bin\Debug\net6.0\10-AtividadePOO.pdb
+C:\Users\laboratorio\Downloads\Nova pasta\Programao.NET\Aulas\10-AtividadePOO\10-AtividadePOO\obj\Debug\net6.0\10-AtividadePOO.csproj.AssemblyReference.cache
+C:\Users\laboratorio\Downloads\Nova pasta\Programao.NET\Aulas\10-AtividadePOO\10-AtividadePOO\obj\Debug\net6.0\10-AtividadePOO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\laboratorio\Downloads\Nova pasta\Programao.NET\Aulas\10-AtividadePOO\10-AtividadePOO\obj\Debug\net6.0\10-AtividadePOO.AssemblyInfoInputs.cache
+C:\Users\laboratorio\Downloads\Nova pasta\Programao.NET\Aulas\10-AtividadePOO\10-AtividadePOO\obj\Debug\net6.0\10-AtividadePOO.AssemblyInfo.cs
+C:\Users\laboratorio\Downloads\Nova pasta\Programao.NET\Aulas\10-AtividadePOO\10-AtividadePOO\obj\Debug\net6.0\10-AtividadePOO.csproj.CoreCompileInputs.cache
+C:\Users\laboratorio\Downloads\Nova pasta\Programao.NET\Aulas\10-AtividadePOO\10-AtividadePOO\obj\Debug\net6.0\10-AtividadePOO.dll
+C:\Users\laboratorio\Downloads\Nova pasta\Programao.NET\Aulas\10-AtividadePOO\10-AtividadePOO\obj\Debug\net6.0\refint\10-AtividadePOO.dll
+C:\Users\laboratorio\Downloads\Nova pasta\Programao.NET\Aulas\10-AtividadePOO\10-AtividadePOO\obj\Debug\net6.0\10-AtividadePOO.pdb
+C:\Users\laboratorio\Downloads\Nova pasta\Programao.NET\Aulas\10-AtividadePOO\10-AtividadePOO\obj\Debug\net6.0\10-AtividadePOO.genruntimeconfig.cache
+C:\Users\laboratorio\Downloads\Nova pasta\Programao.NET\Aulas\10-AtividadePOO\10-AtividadePOO\obj\Debug\net6.0\ref\10-AtividadePOO.dll
