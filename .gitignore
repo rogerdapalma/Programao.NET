@@ -1,0 +1,35 @@
+# .gitignore para projeto C# / .NET
+
+# Ignorar pastas do Visual Studio
+.vs/
+
+# Ignorar arquivos de build
+bin/
+obj/
+
+# Ignorar arquivos do usuário do Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignorar pacotes restaurados
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignorar diretórios de teste
+TestResults/
+
+# Ignorar logs
+*.log
+
+# Ignorar arquivos temporários do sistema
+*.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de configurações do Rider
+.idea/
+*.sln.iml
