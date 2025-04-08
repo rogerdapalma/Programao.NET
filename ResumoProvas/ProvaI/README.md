@@ -1,6 +1,4 @@
-Aqui está um **resumo completo** dos conteúdos das aulas de Programação .NET com C# que você enviou. Organizei por temas e aulas para facilitar o estudo para a prova. Todos os conteúdos são baseados nos arquivos fornecidos e em fontes confiáveis citadas ao final.
 
----
 
 ## 🧠 **RESUMO COMPLETO PARA PROVA – PROGRAMAÇÃO .NET COM C#**
 
@@ -153,7 +151,3 @@ public interface IForma {
   https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/tutorials/inheritance  
 - UML oficial:  
   http://www.uml.org  
-
-Se quiser, posso montar um **quiz de revisão**, **mapa mental**, ou **exercícios simulados** também!
-
-Deseja isso?
