@@ -7,6 +7,20 @@
 
 <h2> @ViewData["Title"]</h2>
 <p> @ViewData["teste"]</p>
-<p> Estou testando os dados da minha pagina </p>
-<p> Nome produto : @Model.Descricao</p>
-<p> Preco: @Model.Preco </p>
+<table>
+	<thead>
+		<tr>
+			<th>Nome produto</th>
+			<th>Preço</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach(var produto in Model.Produtos)
+		{
+			<tr>
+				<td>@produto.Descricao</td>
+				<td>@produto.Preco.ToString("C")</td>
+			</tr>
+		}
+	</tbody>
+</table>

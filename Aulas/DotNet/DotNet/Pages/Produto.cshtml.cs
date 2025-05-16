@@ -10,7 +10,7 @@ namespace DotNet.Pages
 
         public List<Produto> Produtos { get; set; }
         public void OnGet()
-        {
+        {   //logica para requisição get
             Produtos = new List<Produto>
             {
                 new Produto { Descricao = "coca",Preco = 8.99m },
