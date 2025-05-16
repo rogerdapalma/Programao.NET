@@ -1,0 +1,27 @@
+﻿@page
+@model DotNet.Pages.Usuarios.CriarModel
+@{
+    ViewData["Title"] = "Cadastrar Usuario";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form method="post">
+    <div>
+        <label for="Id">ID: </label>
+        <input type="text" id="Id" name="Usuario.Id" />
+    </div>
+    <div>
+        <label for="Nome">Nome do usuario: </label>
+        <input type="text" id="Nome" name="Usuario.Nome" />
+    </div>
+    <div>
+        <label for="Senha">Senha: </label>
+        <input type="password" id="Senha" name="Usuario.Senha" />
+    </div>
+    <div>
+        <label for="Email">Email: </label>
+        <input type="text" id="Email" name="Usuario.Email" />
+    </div>
+    <button type="submit">Cadastrar</button>
+</form>
