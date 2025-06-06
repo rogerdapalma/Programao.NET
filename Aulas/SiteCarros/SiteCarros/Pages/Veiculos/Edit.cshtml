@@ -1,0 +1,56 @@
+﻿@page "{renavam}"
+@model SiteCarros.Pages.Veiculos.EditModel
+@{
+    ViewData["Title"] = "Editar Veículo";
+}
+
+<h2 class="mb-4">Editar Veículo</h2>
+
+<form method="post" enctype="multipart/form-data" class="row g-3">
+    <partial name="_ValidationScriptsPartial" />
+    <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+    <input type="hidden" asp-for="Veiculo.Renavam" />
+
+    <div class="col-md-6">
+        <label asp-for="Veiculo.Nome" class="form-label"></label>
+        <input asp-for="Veiculo.Nome" class="form-control" />
+        <span asp-validation-for="Veiculo.Nome" class="text-danger"></span>
+    </div>
+    <div class="col-md-6">
+        <label asp-for="Veiculo.Modelo" class="form-label"></label>
+        <input asp-for="Veiculo.Modelo" class="form-control" />
+        <span asp-validation-for="Veiculo.Modelo" class="text-danger"></span>
+    </div>
+    <div class="col-md-6">
+        <label asp-for="Veiculo.Marca" class="form-label"></label>
+        <input asp-for="Veiculo.Marca" class="form-control" />
+        <span asp-validation-for="Veiculo.Marca" class="text-danger"></span>
+    </div>
+    <div class="col-md-6">
+        <label asp-for="Veiculo.AnoFabricacao" class="form-label"></label>
+        <input asp-for="Veiculo.AnoFabricacao" class="form-control" />
+        <span asp-validation-for="Veiculo.AnoFabricacao" class="text-danger"></span>
+    </div>
+    <div class="col-md-6">
+        <label asp-for="Veiculo.AnoModelo" class="form-label"></label>
+        <input asp-for="Veiculo.AnoModelo" class="form-control" />
+        <span asp-validation-for="Veiculo.AnoModelo" class="text-danger"></span>
+    </div>
+    <div class="col-md-6">
+        <label asp-for="NovaFoto" class="form-label">Nova Foto (opcional)</label>
+        <input type="file" asp-for="NovaFoto" class="form-control" />
+    </div>
+
+    @if (!string.IsNullOrEmpty(Model.Veiculo.Foto))
+    {
+        <div class="col-md-12">
+            <label class="form-label d-block">Foto Atual</label>
+            <img src="~/uploads/@Model.Veiculo.Foto" alt="Foto atual do veículo" class="img-thumbnail" width="300" />
+        </div>
+    }
+
+    <div class="col-12 d-flex justify-content-between">
+        <a asp-page="Index" class="btn btn-secondary">Voltar</a>
+        <button type="submit" class="btn btn-warning">Salvar Alterações</button>
+    </div>
+</form>

@@ -1,0 +1,40 @@
+﻿@page "{renavam}"
+@model SiteCarros.Pages.Veiculos.DetailsModel
+@{
+    ViewData["Title"] = "Detalhes do Veículo";
+}
+
+<h2 class="mb-4">Detalhes do Veículo</h2>
+
+@if (Model.Veiculo != null)
+{
+    <div class="card mb-4 shadow-sm">
+        <div class="row g-0">
+            @if (!string.IsNullOrEmpty(Model.Veiculo.Foto))
+            {
+                <div class="col-md-4 text-center p-3">
+                    <img src="~/uploads/@Model.Veiculo.Foto"
+                         class="img-fluid rounded border"
+                         alt="Foto de @Model.Veiculo.Nome" />
+                </div>
+            }
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h4 class="card-title text-primary">@Model.Veiculo.Marca @Model.Veiculo.Modelo</h4>
+                    <p class="card-text"><strong>Nome:</strong> @Model.Veiculo.Nome</p>
+                    <p class="card-text"><strong>Renavam:</strong> @Model.Veiculo.Renavam</p>
+                    <p class="card-text"><strong>Ano de Fabricação:</strong> @Model.Veiculo.AnoFabricacao</p>
+                    <p class="card-text"><strong>Ano do Modelo:</strong> @Model.Veiculo.AnoModelo</p>
+                    <div class="mt-3">
+                        <a asp-page="Edit" asp-route-renavam="@Model.Veiculo.Renavam" class="btn btn-warning me-2">Editar</a>
+                        <a asp-page="Index" class="btn btn-secondary">Voltar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <div class="alert alert-warning">Veículo não encontrado.</div>
+}

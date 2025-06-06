@@ -1,0 +1,55 @@
+﻿@page
+@model SiteCarros.Pages.Veiculos.IndexModel
+@{
+    ViewData["Title"] = "Lista de Veículos";
+}
+
+<h2 class="mb-4">Veículos Cadastrados</h2>
+<!-- barra de pesquisa -->
+<input type="text" id="filtro" class="form-control mb-4" placeholder="Buscar por nome ou renavam..." onkeyup="filtrarVeiculos()" />
+
+@if (Model.Veiculos.Count == 0)
+{
+    <div class="alert alert-info">Nenhum veículo cadastrado ainda.</div>
+}
+else
+{
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        @foreach (var v in Model.Veiculos)
+        {
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    @if (!string.IsNullOrEmpty(v.Foto))
+                    {
+                        <img src="~/uploads/@v.Foto" class="card-img-top" alt="Foto de @v.Nome" />
+                    }
+                    <!-- tira o delay -->
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">@v.Marca @v.Modelo</h5>
+                        <p class="card-text mb-1"><strong>Nome:</strong> @v.Nome</p>
+                        <p class="card-text mb-1"><strong>Renavam:</strong> @v.Renavam</p>
+                        <p class="card-text"><strong>Ano:</strong> @v.AnoFabricacao / @v.AnoModelo</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                        <a asp-page="Details" asp-route-renavam="@v.Renavam" class="btn btn-sm btn-outline-info">Detalhes</a>
+                        <a asp-page="Edit" asp-route-renavam="@v.Renavam" class="btn btn-sm btn-outline-warning">Editar</a>
+                    </div>
+                </div>
+            </div>
+            <script>
+                function filtrarVeiculos() {
+                    const termo = document.getElementById("filtro").value.toLowerCase();
+                    const cards = document.querySelectorAll(".card");
+
+                    cards.forEach(card => {
+                        const nome = card.querySelector(".card-text strong + text")?.textContent || "";
+                        const renavam = card.innerText.toLowerCase();
+                        const visivel = renavam.includes(termo);
+                        card.parentElement.style.display = visivel ? "block" : "none";
+                    });
+                }
+            </script>
+
+        }
+    </div>
+}

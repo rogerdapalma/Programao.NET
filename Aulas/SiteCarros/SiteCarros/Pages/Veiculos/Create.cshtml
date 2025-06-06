@@ -1,0 +1,51 @@
+﻿@page
+@model SiteCarros.Pages.Veiculos.CreateModel
+@{
+    ViewData["Title"] = "Cadastrar Veículo";
+}
+
+<h2 class="mb-4">Cadastrar Veículo</h2>
+
+<form method="post" enctype="multipart/form-data" class="row g-3">
+    <partial name="_ValidationScriptsPartial" />
+    <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+    <div class="col-md-6">
+        <label asp-for="Veiculo.Nome" class="form-label"></label>
+        <input asp-for="Veiculo.Nome" class="form-control" />
+        <span asp-validation-for="Veiculo.Nome" class="text-danger"></span>
+    </div>
+    <div class="col-md-6">
+        <label asp-for="Veiculo.Modelo" class="form-label"></label>
+        <input asp-for="Veiculo.Modelo" class="form-control" />
+        <span asp-validation-for="Veiculo.Modelo" class="text-danger"></span>
+    </div>
+    <div class="col-md-6">
+        <label asp-for="Veiculo.Marca" class="form-label"></label>
+        <input asp-for="Veiculo.Marca" class="form-control" />
+        <span asp-validation-for="Veiculo.Marca" class="text-danger"></span>
+    </div>
+    <div class="col-md-6">
+        <label asp-for="Veiculo.Renavam" class="form-label"></label>
+        <input asp-for="Veiculo.Renavam" class="form-control" />
+        <span asp-validation-for="Veiculo.Renavam" class="text-danger"></span>
+    </div>
+    <div class="col-md-6">
+        <label asp-for="Veiculo.AnoFabricacao" class="form-label"></label>
+        <input asp-for="Veiculo.AnoFabricacao" class="form-control" />
+        <span asp-validation-for="Veiculo.AnoFabricacao" class="text-danger"></span>
+    </div>
+    <div class="col-md-6">
+        <label asp-for="Veiculo.AnoModelo" class="form-label"></label>
+        <input asp-for="Veiculo.AnoModelo" class="form-control" />
+        <span asp-validation-for="Veiculo.AnoModelo" class="text-danger"></span>
+    </div>
+    <div class="col-md-12">
+        <label asp-for="Foto" class="form-label">Foto (opcional)</label>
+        <input type="file" asp-for="Foto" class="form-control" />
+    </div>
+    <div class="col-12 d-flex justify-content-between">
+        <a asp-page="Index" class="btn btn-secondary">Voltar</a>
+        <button type="submit" class="btn btn-primary">Salvar</button>
+    </div>
+</form>
