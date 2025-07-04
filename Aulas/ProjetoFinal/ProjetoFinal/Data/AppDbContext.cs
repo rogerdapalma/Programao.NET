@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using ProjetoFinal.Models;
 using ProjetoTarefasMVC.Models;
 
 namespace ProjetoTarefasMVC.Data

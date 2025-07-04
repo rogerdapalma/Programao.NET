@@ -30,7 +30,7 @@ namespace ProjetoFinal.Controllers
 
             var projeto = await _context.Projetos
                 .Include(p => p.Tarefas)
-                .FirstOrDefaultAsync(m => m.Id == id); //exibi as tarefas em detalhes tbm
+                .FirstOrDefaultAsync(m => m.Id == id); //exibi as tarefas em detalhes
 
             if (projeto == null)
             {

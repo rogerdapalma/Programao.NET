@@ -10,7 +10,7 @@ namespace ProjetoFinal.Models
         public string Status { get; set; }
 
         public int ProjetoId { get; set; } // fk
-        public Projeto? Projeto { get; set; } //
+        public Projeto? Projeto { get; set; } // 
         
     }
 }

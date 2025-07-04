@@ -1,5 +1,7 @@
 ﻿
 
+using ProjetoFinal.Models;
+
 namespace ProjetoTarefasMVC.Models
 {
     public class Projeto

@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using ProjetoFinal.Models;
 using ProjetoTarefasMVC.Data;
-using ProjetoTarefasMVC.Models;
 
 namespace ProjetoFinal.Controllers
 {
@@ -32,7 +32,7 @@ namespace ProjetoFinal.Controllers
 
             var tarefa = await _context.Tarefas
                 .Include(t => t.Projeto)
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .FirstOrDefaultAsync(m => m.Id == id); // tarefas vinculadas
 
             if (tarefa == null)
             {
