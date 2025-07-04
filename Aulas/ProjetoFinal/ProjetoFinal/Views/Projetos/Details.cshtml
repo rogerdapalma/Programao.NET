@@ -1,0 +1,85 @@
+﻿@model ProjetoTarefasMVC.Models.Projeto
+
+@{
+    ViewData["Title"] = "Detalhes do Projeto";
+}
+
+<div class="container mt-4">
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white d-flex justify-content-between">
+            <h4>Detalhes do Projeto</h4>
+            <span class="badge bg-light text-dark">Tarefas: @Model.Tarefas.Count</span>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3">Nome</dt>
+                <dd class="col-sm-9">@Model.Nome</dd>
+
+                <dt class="col-sm-3">Cliente</dt>
+                <dd class="col-sm-9">@Model.Cliente</dd>
+
+                <dt class="col-sm-3">Data Início</dt>
+                <dd class="col-sm-9">@Model.DataInicio.ToShortDateString()</dd>
+
+                <dt class="col-sm-3">Data Fim</dt>
+                <dd class="col-sm-9">
+                    @Model.DataFim?.ToShortDateString() </dd>
+            </dl>
+
+            <div class="mt-4">
+                <a class="btn btn-secondary" asp-action="Index">
+                    <i class="bi bi-arrow-left"></i> Voltar
+                </a>
+                <a class="btn btn-primary" asp-action="Edit" asp-route-id="@Model.Id">
+                    <i class="bi bi-pencil"></i> Editar
+                </a>
+                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@Model.Id">
+                    <i class="bi bi-trash"></i> Excluir
+                </a>
+            </div>
+        </div>
+    </div>
+
+    @if (Model.Tarefas != null && Model.Tarefas.Any())
+    {
+        <div class="card mt-4">
+            <div class="card-header bg-info text-white">
+                <h5>Tarefas deste Projeto</h5>
+            </div>
+            <div class="card-body">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Título</th>
+                            <th>Descrição</th>
+                            <th>Status</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var tarefa in Model.Tarefas)
+                        {
+                            <tr>
+                                <td>@tarefa.Titulo</td>
+                                <td>@tarefa.Descricao</td>
+                                <td>@tarefa.Status</td>
+                                <td>
+                                    <a class="btn btn-sm btn-primary" asp-controller="Tarefas" asp-action="Details" asp-route-id="@tarefa.Id">
+                                        <i class="bi bi-eye"></i>
+                                    </a>
+                                    <a class="btn btn-sm btn-danger" asp-controller="Tarefas" asp-action="Delete" asp-route-id="@tarefa.Id">
+                                        <i class="bi bi-trash"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    }
+    else
+    {
+        <p class="mt-4 text-muted">Nenhuma tarefa cadastrada para este projeto.</p>
+    }
+</div>

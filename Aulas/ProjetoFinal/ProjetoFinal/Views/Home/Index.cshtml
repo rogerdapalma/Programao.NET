@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+            <div class="p-5 bg-light rounded shadow-sm">
+                <h1 class="display-4 mb-4">Bem-vindo ao Sistema de Projetos e Tarefas</h1>
+                <p class="lead mb-4">
+                    Este sistema foi desenvolvido em ASP.NET Core MVC utilizando Entity Framework Core e SQLite para demonstrar
+                    a gestão de projetos com suas respectivas tarefas.
+                </p>
+                <a class="btn btn-primary btn-lg me-3" asp-controller="Projetos" asp-action="Index">
+                    <i class="bi bi-clipboard-data"></i> Ver Projetos
+                </a>
+                <a class="btn btn-outline-secondary btn-lg" asp-controller="Tarefas" asp-action="Index">
+                    <i class="bi bi-list-check"></i> Ver Tarefas
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

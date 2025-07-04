@@ -3,3 +3,4 @@ roger;Corola;Toyota;20340442320;2020;2020;3d533798-41a9-47dd-8829-67fbccc48e46.j
 gioberto;golf;VW;132123123;2023;2024;d6bfbbb3-5af3-4c50-8ba5-ac88e81ac97b.jpg
 vanderlei;Jetta2.0;VW;12312321;2025;2025;ab3b9f4d-4080-4e06-8bb0-da5fd448a329.jpg
 Jaime ;Carteiro;Kaloy;1;1890;1891;e55eb54d-258e-45be-9b9d-6e5664cb9c5d.jpg
+jose;honda;honda;11;2020;2020;

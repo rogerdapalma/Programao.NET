@@ -1,0 +1,78 @@
+﻿/* Link padrão */
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #005fa3;
+        text-decoration: underline;
+    }
+
+    /* Marca no navbar */
+    a.navbar-brand {
+        white-space: normal;
+        text-align: center;
+        word-break: break-all;
+    }
+
+/* Botões */
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+    .btn-primary:hover {
+        background-color: #155fa0;
+        border-color: #124f89;
+    }
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+/* Nav-pills ativo */
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+/* Borda e sombra */
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+/* Botão política */
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Footer fixo adaptado */
+.footer {
+    width: 100%;
+    line-height: 60px;
+    text-align: center;
+}
+
+/* Tabela zebra adicional */
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0,0,0,.02);
+}
